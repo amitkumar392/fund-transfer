@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "emailId": "amitsoni392@gmail.com",
+      "password": "123456789",
+      "userName": "amit",
+      "accountNumber": "1111",
+      "balance": 39024,
+      "bankName": "Yes Bank",
+      "minimumBalance": "1000"
+    },
+    {
+      "id": 2,
+      "emailId": "sparsh@gmail.com",
+      "password": "123456789",
+      "userName": "sparsh",
+      "accountNumber": "2222",
+      "balance": 50116,
+      "bankName": "Dena Bank",
+      "minimumBalance": 1000
+    },
+    {
+      "id": 3,
+      "emailId": "shubhgupta@gmail.com",
+      "password": "123456789",
+      "userName": "shubham",
+      "accountNumber": "3333",
+      "balance": 30000,
+      "bankName": "HDFC Bank",
+      "minimumBalance": 1000
+    },
+    {
+      "id": 4,
+      "emailId": "ayushi@gmail.com",
+      "password": "123456789",
+      "userName": "ayushi",
+      "accountNumber": "4444",
+      "balance": 10300,
+      "bankName": "HDFC Bank",
+      "minimumBalance": 1000
+    }
+  ],
+  "addBeneficiary": [
+    {
+      "beneficiaryName": "fghj",
+      "beneficiaryAccountNumber": "2222",
+      "ifscCode": "sdcvb",
+      "id": 1
+    },
+    {
+      "beneficiaryName": "sparsh",
+      "beneficiaryAccountNumber": "555r",
+      "ifscCode": "cvbn",
+      "id": 2
+    },
+    {
+      "beneficiaryName": "raju",
+      "beneficiaryAccountNumber": "3455",
+      "ifscCode": "fdv",
+      "id": 3
+    },
+    {
+      "beneficiaryName": "nithish",
+      "beneficiaryAccountNumber": "12345678",
+      "ifscCode": "ibgh",
+      "id": 4
+    },
+    {
+      "beneficiaryName": "shubham",
+      "beneficiaryAccountNumber": "6666",
+      "ifscCode": "isca123",
+      "id": 5
+    },
+    {
+      "beneficiaryName": "tanmay ",
+      "beneficiaryAccountNumber": "789",
+      "ifscCode": "chj",
+      "id": 6
+    },
+    {
+      "beneficiaryName": "amit",
+      "beneficiaryAccountNumber": "1111",
+      "ifscCode": "sds",
+      "id": 7
+    },
+    {
+      "beneficiaryName": "amit",
+      "beneficiaryAccountNumber": "2222",
+      "ifscCode": "UP9218",
+      "id": 8
+    },
+    {
+      "beneficiaryName": "ayushi",
+      "beneficiaryAccountNumber": "4444",
+      "ifscCode": "768",
+      "id": 9
+    }
+  ],
+  "history": [
+    {
+      "toAccountNumber": "1111",
+      "beneficiaryAccountNumber": "2222",
+      "transferAmount": 2000,
+      "id": 1
+    },
+    {
+      "toAccountNumber": "1111",
+      "beneficiaryAccountNumber": "2222",
+      "transferAmount": 2000,
+      "id": 2
+    },
+    {
+      "toAccountNumber": "2222",
+      "beneficiaryAccountNumber": "1111",
+      "transferAmount": 345,
+      "id": 3
+    },
+    {
+      "toAccountNumber": "2222",
+      "beneficiaryAccountNumber": "1111",
+      "transferAmount": 345,
+      "id": 4
+    },
+    {
+      "toAccountNumber": "1111",
+      "beneficiaryAccountNumber": "2222",
+      "transferAmount": 100,
+      "transactionDate": "3/21/2020",
+      "id": 5
+    },
+    {
+      "toAccountNumber": "1111",
+      "beneficiaryAccountNumber": "2222",
+      "transferAmount": 100,
+      "transactionDate": "3/21/2020",
+      "id": 6
+    }
+  ]
+}

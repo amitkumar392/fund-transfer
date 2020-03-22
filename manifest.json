@@ -1,0 +1,6 @@
+{
+  "name": "CurrencyExchange",
+  "short_name": "CurrencyExchange",
+  "start_url": "/",
+  "display": "standalone"
+}

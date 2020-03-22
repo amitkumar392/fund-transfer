@@ -1,0 +1,36 @@
+{
+  "npm": true,
+  "entrypoint": "index.html",
+  "shell": "src/CurrencyExchange-app/CurrencyExchange-app.js",
+  "sources": [
+    "src/**/*",
+    "manifest/**",
+    "wall.jpg",
+    "package.json"
+   ],
+   "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/**"
+  ],
+  "moduleResolution": "node",
+  "builds": [
+    {
+      "preset": "es5-bundled",
+      "addServiceWorker": true
+    },
+    {
+      "preset": "es6-unbundled",
+      "addServiceWorker": true
+    },
+    {
+      "preset": "es6-bundled",
+      "addServiceWorker": true
+    }
+  ],
+
+  "lint": {
+    "rules": [
+      "polymer-3"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>CurrencyExchange-app test</title>
+
+    <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../../node_modules/@polymer/test-fixture/test-fixture.js"></script>
+    <script src="../../node_modules/mocha/mocha.js"></script>
+    <script src="../../node_modules/chai/chai.js"></script>
+    <script src="../../node_modules/sinon/pkg/sinon.js"></script>  
+    <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+    <script>
+      window.MyAppGlobals = { rootPath: '/' };
+  </script>
+    <script type="module" src="../../src/CurrencyExchange-app/CurrencyExchange-app.js"></script>
+  </head>
+  <body>
+
+    <test-fixture id="BasicTestFixture">
+      <template>
+        <currency-exchange></currency-exchange>
+      </template>
+    </test-fixture>
+    <script>
+describe('Given Login Page Component:', function () {
+            var element;
+            var elementShadowRoot;
+
+            describe('When component is initailised', function () {
+
+                beforeEach(function () {
+                    element = fixture('BasicTestFixture');
+                    elementShadowRoot = element.shadowRoot;
+                });
+
+                it('should render the component', function () {
+                    expect(element).to.be.exist;
+                    expect(elementShadowRoot).to.be.exist;
+                });
+            });
+        });
+    </script>
+
+
+  </body>
+</html>
